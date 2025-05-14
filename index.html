@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | FrontEnd Development Course WDD231 </title>
+    <meta name="description" content="Web & computer programming cerftification | Wdd231 course">
+    <meta name="author" content="King Emmanuel Aguomba | Wdd231">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet" type="text/css">
+    <link href="styles/larger.css" rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="menu-toggle" class="hamburger" aria-label="toggle menu">
+            &#x2630;
+        </button>
+        <div class="profile">
+            <div class="profile-picture">
+                <img src="images/Mypassport.webp" alt="profle-picture" width="100" height="100">
+            </div>
+            <div class="profile-name">
+                <h1>King E. Aguomba</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="week02/chamber.html">Chamber</a></li>
+                <li><a href="project/index.html">Final</a></li>
+                <li><a href="https://github.com/kingkacrae99">Github profile</a></li>
+                <li><a href="https://www.linkedin.com/in/King-aguomba">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="sub-header">Home</h1>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <h2 class="col-title">Course Work</h2>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col2">
+                        <h2 class="col-title">Abuja, Nigeria</h2>
+                        <div class ="col2-content">
+                            <picture>
+                                <source srcset="images/zuma-rock.webp" media="(min-width: 380px)">
+                                <img src="images/zuma-rock-small.webp" alt="zuma-rock" loading="lazy" >
+                            </picture>
+                            <p>Zuma Rock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="col-title">Web & computer programming cerftification</h2>
+                    <div class="course-toggle">
+                        <div class="toggle">
+                            <a>All</a>
+                        </div>
+                        <div class="toggle">
+                            <a>CSE</a>
+                        </div>
+                        <div class="toggle">
+                            <a>WDD</a>
+                        </div>
+                    </div>
+
+                    <!-- course code -->
+                    <div id="totalcredits">
+                    </div> 
+                    <div class="course">
+                    </div>
+                </div>
+            </div>
+            <!-- course code -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> King Emmanuel Aguomba | Nigeria</p>
+        <p>Last Update:<span id="Lastupdated"></span></p>
+    </footer>
+</body>
+</html>
