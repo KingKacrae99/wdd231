@@ -120,6 +120,7 @@ function getCompletedCourse(courses) {
         const courseCode = document.querySelector(`.course-code[data-code="${codeKey}"]`);
         if (courseCode) {
             courseCode.style.backgroundColor = 'black';
+            courseCode.style.color = 'white'
         }
     });
 }
