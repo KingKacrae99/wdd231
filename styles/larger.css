@@ -11,19 +11,19 @@
       nav ul li {
         border-right: 1px solid lightgray;
       }
-      main .container .row{
+      .container {
         justify-content: center;
         align-items: center;
         flex-direction: row;
         width: 100%;
       }
 
-      .col1{
+     .col1{
         width:60%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       }
       
-      .col2{
+     .col2{
         width: 40%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       }
