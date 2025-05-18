@@ -1,0 +1,31 @@
+:root{
+    --primary-color:#003366;
+    --secondary-Color:#f0c000;
+    --accent:#28a745;
+    --Background:#ffffff;
+    --Text:	#222222;
+
+}
+@media screen and (min-width:768px){
+    header, footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav{
+    width: 50%;
+
+   }
+
+    nav ul{
+        flex-direction: row;
+        margin-top: 1rem;
+        padding-top: 3rem;
+        align-items: normal;
+    }
+
+    .member-col{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
