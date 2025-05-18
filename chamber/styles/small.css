@@ -18,7 +18,7 @@ header, footer{
     flex: 1 100%;
     justify-content: center;
     align-items: center;
-
+    color: var(--Background);
 }
 header h1{
     color: var(--Background);
@@ -65,12 +65,16 @@ nav ul li{
 }
 ul li a{
     display: block;
-    color: var(--accent);
+    color: var(--Background);
     width: 100%;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
     font-weight: 500;
+}
+ul li a:hover{
+    color: var(--accent);
+    border: 1px solid #ccc;;
 }
 main{
     display: grid;

@@ -22,6 +22,9 @@
         padding-top: 3rem;
         align-items: normal;
     }
+    ul li a:hover{
+    border: none;
+}
 
     .cards{
         display: grid;
@@ -30,7 +33,8 @@
         padding: 1rem;
     }
     .cards .card h2{
-        
+        font-size: 1.5rem;
     }
+
     
 }
