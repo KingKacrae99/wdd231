@@ -1,0 +1,69 @@
+{
+    "members":
+    [
+        {
+            "name": "GreenBite Restaurant",
+            "address": "2A 3rd Avenue, Gwarinpa, Abuja",
+            "phone": "+234 801 234 5678",
+            "website": "https://greenbite.ng",
+            "image": "images/greenbite.webp",
+            "membershipLevel": 3,
+            "description": "Organic meals and Nigerian cuisine with a garden seating area."
+        },
+        {
+            "name": "TechNova Solutions",
+            "address": "Suite 14, Efab Plaza, Gwarinpa, Abuja",
+            "phone": "+234 802 333 4411",
+            "website": "https://technova.com.ng",
+            "image": "images/technova-logo.webp",
+            "membershipLevel": 2,
+            "description": "IT consulting, web development, and digital transformation services."
+        },
+        {
+            "name": "Gwarinpa Fitness Hub",
+            "address": "Plot 6A, 1st Avenue, Gwarinpa, Abuja",
+            "phone": "+234 803 556 7890",
+            "website": "https://gwarinpafitnesshub.ng",
+            "image": "images/fitnesshub.webp",
+            "membershipLevel": 1,
+            "description": "Modern gym offering personal training, yoga, and aerobics classes."
+        },
+        {
+            "name": "Chika's Fashion House",
+            "address": "Shop 5, Gwarinpa Market, Abuja",
+            "phone": "+234 805 221 1001",
+            "website": "https://chikasfashion.ng",
+            "image": "chikas-fashion.png",
+            "membershipLevel": 2,
+            "description": "Custom tailoring and ready-to-wear African fashion designs."
+        },
+        {
+            "name": "Royal Touch Spa",
+            "address": "Block B, House 17, 4th Avenue, Gwarinpa, Abuja",
+            "phone": "+234 809 100 2020",
+            "website": "https://royaltouchspa.ng",
+            "image": "royal-touch.jpg",
+            "membershipLevel": 3,
+            "description": "Luxury spa and wellness treatments in a serene environment."
+        },
+        {
+            "name": "SwiftPrint Studios",
+            "address": "Shop 8, Zenith Complex, Gwarinpa, Abuja",
+            "phone": "+234 807 765 3210",
+            "website": "https://swiftprint.ng",
+            "image": "swiftprint-logo.svg",
+            "membershipLevel": 1,
+            "description": "Digital printing, branding, and graphic design services."
+        },
+        {
+            "name": "EduNest Bookstore",
+            "address": "No. 10, School Road, Gwarinpa, Abuja",
+            "phone": "+234 804 909 1199",
+            "website": "https://edunestbooks.ng",
+            "image": "edunest.png",
+            "membershipLevel": 2,
+            "description": "Educational books, stationery, and school supply store."
+        }
+    ]
+
+}
