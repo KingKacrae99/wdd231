@@ -10,9 +10,8 @@ body{
     font-family: 'Open sans', sans-serif;
     color: var(--Text);
 }
-header, footer{
+header{
     display: flex;
-    padding: 1rem;
     background-color: var(--primary-color);
     flex-direction: column;
     flex: 1 100%;
@@ -23,10 +22,18 @@ header, footer{
 header h1{
     color: var(--Background);
 }
-
-header .logo{
+header .header-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header .header-top .logo{
     display: flex;
     flex-direction: row;
+    padding: .5rem;
+}
+.logo img{
+    height: 100px;
 }
 .logo .logo-text{
     padding: 1rem;
@@ -35,10 +42,23 @@ header .logo{
     padding: 0%;
     margin: 0%;
     color: var(--accent);
+    font-weight: 500;
+    font-size: .5rem
 }
 .logo .logo-text h1{
     padding: 0%;
     margin-bottom: 0%;
+    font-size: 1.5rem;
+}
+.header-top .menu-button{
+    display: block;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+    color: var(--Background);
+    padding: 0.5rem;
+    margin: 0.5rem 1rem;
 }
 h1, h2, h3{
     font-family:'Roboto', sans-serif;
@@ -50,7 +70,7 @@ nav{
 
 nav ul{
     list-style: none;
-    display: flex;
+    display: none;
     gap: .5rem;
     justify-content: center;
     align-items: stretch;
@@ -59,11 +79,14 @@ nav ul{
     margin: 0%;
 
 }
+nav ul.active{
+    display: flex;
+}
 nav ul li{
     width: 100%;
     flex: 1 1 100%; 
 }
-ul li a{
+nav ul li a{
     display: block;
     color: var(--Background);
     width: 100%;
@@ -76,10 +99,36 @@ ul li a:hover{
     color: var(--accent);
     border: 1px solid #ccc;;
 }
+ul li a:focus{
+    color: var(--accent);
+}
+
 main{
     display: grid;
     justify-content: center;
     align-content: center;
+}
+
+.menu{
+    display: none;
+}
+
+.menu button{
+    background-color: var(--primary-color);
+    color: var(--Background);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: var(--accent);
+    color: var(--Background);
+}
+.menu button:focus{
+    background-color: var(--accent);
+    color: var(--Background);
 }
 .cards{
     display: grid;
@@ -89,7 +138,8 @@ main{
 .cards .card{
         margin: 1rem;
         padding: 1rem;
-        background-color: var(--Background);
+        background-color:var(--Background);
+        border: 1px solid #ccc;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         display: flex;
         justify-content: center;
@@ -100,4 +150,23 @@ main{
         margin-top: 0%;
         padding-top: 0%;
         text-align: center;
+    }
+    .card p{
+        font-weight: 700;
+    }
+    footer{
+    display: flex;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    flex: 1 100%;
+    color: var(--Background);
+}
+
+    footer section{
+        text-align: center;
+        padding: 1rem;
+    }
+    footer section p {
+        font-weight: 700;
     }

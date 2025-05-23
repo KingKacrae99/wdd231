@@ -11,12 +11,37 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    header .header-top{
+    display: flex;
+    width: 50%;
+}
+   .logo img{
+    height: 124px;
+    padding-left: 0.5rem;
+   }
+   .logo .logo-text{
+        padding: 1rem;
+    }
+    .logo .logo-text p{
+        padding: 0%;
+        margin: 0%;
+        color: var(--accent);
+        font-weight: 500;
+        font-size: 1rem
+    }
+    .logo .logo-text h1{
+        padding: 0%;
+        margin-bottom: 0%;
+        font-size: 2rem;
+    }
+    
     nav{
     width: 50%;
+    padding: 1rem;
 
    }
-
     nav ul{
+        display: flex;
         flex-direction: row;
         margin-top: 1rem;
         padding-top: 3rem;
@@ -24,8 +49,17 @@
     }
     ul li a:hover{
     border: none;
-}
-
+    }
+    .header-top .menu-button{
+        display: none;
+    }
+   .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+   }
     .cards{
         display: grid;
         grid-template-columns: repeat(3,1fr);

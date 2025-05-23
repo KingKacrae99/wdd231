@@ -33,7 +33,7 @@
             "address": "Shop 5, Gwarinpa Market, Abuja",
             "phone": "+234 805 221 1001",
             "website": "https://chikasfashion.ng",
-            "image": "chikas-fashion.png",
+            "image": "images/chika-fashion-logo.webp",
             "membershipLevel": 2,
             "description": "Custom tailoring and ready-to-wear African fashion designs."
         },
@@ -42,7 +42,7 @@
             "address": "Block B, House 17, 4th Avenue, Gwarinpa, Abuja",
             "phone": "+234 809 100 2020",
             "website": "https://royaltouchspa.ng",
-            "image": "royal-touch.jpg",
+            "image": "images/royal-touch-spa.webp",
             "membershipLevel": 3,
             "description": "Luxury spa and wellness treatments in a serene environment."
         },
@@ -51,7 +51,7 @@
             "address": "Shop 8, Zenith Complex, Gwarinpa, Abuja",
             "phone": "+234 807 765 3210",
             "website": "https://swiftprint.ng",
-            "image": "swiftprint-logo.svg",
+            "image": "images/swift-logo.webp",
             "membershipLevel": 1,
             "description": "Digital printing, branding, and graphic design services."
         },
@@ -60,7 +60,7 @@
             "address": "No. 10, School Road, Gwarinpa, Abuja",
             "phone": "+234 804 909 1199",
             "website": "https://edunestbooks.ng",
-            "image": "edunest.png",
+            "image": "images/edu-logo.webp",
             "membershipLevel": 2,
             "description": "Educational books, stationery, and school supply store."
         }
