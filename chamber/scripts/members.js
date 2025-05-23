@@ -38,8 +38,6 @@ const showMembers=((members) =>{
         logo.setAttribute('src', member.image);
         logo.setAttribute('alt', ` ${member.name}-logo`); 
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '150');
-        logo.setAttribute('height', '150');
         card.setAttribute('class', 'card');
         website.setAttribute('href', member.website);
 

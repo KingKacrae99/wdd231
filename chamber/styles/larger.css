@@ -7,7 +7,7 @@
 
 }
 @media screen and (min-width:768px){
-    header, footer{
+    header{
         flex-direction: row;
         justify-content: space-between;
     }
@@ -69,6 +69,21 @@
     .cards .card h2{
         font-size: 1.5rem;
     }
-
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    }
+    footer div{
+        flex: 1;
+        margin: 0 1rem;
+    }
+    footer .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
     
 }

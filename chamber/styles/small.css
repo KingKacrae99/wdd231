@@ -84,12 +84,13 @@ nav ul.active{
 }
 nav ul li{
     width: 100%;
-    flex: 1 1 100%; 
+    flex: 1; 
 }
 nav ul li a{
     display: block;
     color: var(--Background);
     width: 100%;
+    max-height: 2.5rem;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
@@ -156,17 +157,27 @@ main{
     }
     footer{
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
     background-color: var(--primary-color);
     flex-direction: column;
-    flex: 1 100%;
     color: var(--Background);
-}
+    text-align: center;
+    }
 
-    footer section{
-        text-align: center;
-        padding: 1rem;
+    footer div{
+        margin-bottom: 1.5rem;
     }
-    footer section p {
-        font-weight: 700;
+    footer div p {
+        margin: 0.3rem 0;
     }
+    footer .social-meida a{
+        color: var(--Background);
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+    footer .social-media img{
+        width: 24px;
+        height: 24px;
+    }
+    
