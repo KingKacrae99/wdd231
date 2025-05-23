@@ -59,8 +59,8 @@ header .header-top .logo{
     padding: 0.5rem;
     margin-top: 0%;
     margin-bottom: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: .5em;
+    margin-right: .5rem;
     min-width: 40px;
     min-height: 40px;
 }
