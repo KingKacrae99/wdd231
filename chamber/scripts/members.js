@@ -117,12 +117,8 @@ function showlist(){
 }
 
 function displayMenu() {
-    if (window.innerWidth >= 768) {
-            listButton.addEventListener('click', showlist);
-            gridButton.addEventListener('click',showGrid);
-    }else if (window.innerWidth < 768) {
-        gridButton.addEventListener('click', showGrid);
-    }
+    listButton.addEventListener('click', showlist);
+    gridButton.addEventListener('click',showGrid);
 }
 
  function getDateTime(){
