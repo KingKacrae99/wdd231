@@ -37,9 +37,6 @@ header .header-top .logo{
     height: 50px;
     object-fit: contain;
 }
-.logo .logo-text{
-    padding: .rem;
-}
 .logo .logo-text p{
     padding: 0%;
     margin: 0%;
