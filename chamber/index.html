@@ -20,7 +20,7 @@
     <meta property="og:image" content="https://kingkacrae99.github.io/wdd231/chamber/images/chamber-of-commerce-emblem.jpg">
     <meta property="og:url" content="https://kingkacrae99.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US"> 
-    <script src="scripts/members.js" defer></script>
+    <script type="module" src="scripts/weather.mjs" defer></script>
 </head>
 <body>
     <header>
@@ -60,6 +60,13 @@
             </section>
             <section class="current-weather">
                 <h2 class="content-header">Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="" alt="weather-icon">
+                    <figcaption>
+                        <ul>
+                        </ul>
+                    </figcaption>
+                </figure>
             </section>
             <section class="weather-forecast">
                 <h2 class="content-header">Weather Forecast</h2>
@@ -71,17 +78,23 @@
                     <h2>business name</h2>
                     <p> business tag or motto</p>
                 </div>
-            </div>
-            <div class="business-card">
-                <div class="card-header">
-                    <h2>business name</h2>
-                    <p> business tag or motto</p>
+                <div class="card-body">
                 </div>
             </div>
             <div class="business-card">
                 <div class="card-header">
                     <h2>business name</h2>
                     <p> business tag or motto</p>
+                </div>
+                <div class="card-body">
+                </div>
+            </div>
+            <div class="business-card">
+                <div class="card-header">
+                    <h2>business name</h2>
+                    <p> business tag or motto</p>
+                </div>
+                <div class="card-body">
                 </div>
             </div>
         </section>

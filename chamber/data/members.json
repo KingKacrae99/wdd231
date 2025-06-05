@@ -8,6 +8,7 @@
             "website": "https://greenbite.ng",
             "image": "images/greenbite.webp",
             "membershipLevel": 3,
+            "email": "greenbite.email.com",
             "description": "Organic meals and Nigerian cuisine with a garden seating area."
         },
         {
@@ -17,6 +18,7 @@
             "website": "https://technova.com.ng",
             "image": "images/technova-logo.webp",
             "membershipLevel": 2,
+            "email": "technova.email.com",
             "description": "IT consulting, web development, and digital transformation services."
         },
         {
@@ -26,6 +28,7 @@
             "website": "https://gwarinpafitnesshub.ng",
             "image": "images/fitnesshub.webp",
             "membershipLevel": 1,
+            "email": "gwarinpafitnesshub.email.com",
             "description": "Modern gym offering personal training, yoga, and aerobics classes."
         },
         {
@@ -35,6 +38,7 @@
             "website": "https://chikasfashion.ng",
             "image": "images/chika-fashion-logo.webp",
             "membershipLevel": 2,
+            "email": "chikasfashion.email.com",
             "description": "Custom tailoring and ready-to-wear African fashion designs."
         },
         {
@@ -44,6 +48,7 @@
             "website": "https://royaltouchspa.ng",
             "image": "images/royal-touch-spa.webp",
             "membershipLevel": 3,
+            "email": "royaltouchspa.email.com",
             "description": "Luxury spa and wellness treatments in a serene environment."
         },
         {
@@ -53,6 +58,7 @@
             "website": "https://swiftprint.ng",
             "image": "images/swift-logo.webp",
             "membershipLevel": 1,
+            "email": "swiftprint.email.com",
             "description": "Digital printing, branding, and graphic design services."
         },
         {
@@ -62,6 +68,7 @@
             "website": "https://edunestbooks.ng",
             "image": "images/edu-logo.webp",
             "membershipLevel": 2,
+            "email": "edunestbooks.email.com",
             "description": "Educational books, stationery, and school supply store."
         }
     ]
