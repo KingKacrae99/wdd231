@@ -100,9 +100,12 @@ nav ul li a{
     text-decoration: none;
     font-weight: 500;
 }
+.active{
+    border-bottom: 4px solid var(--accent);
+}
 ul li a:hover{
     color: var(--secondary-color);
-    border: 1px solid #ccc;;
+    border: 1px solid #ccc;
 }
 ul li a:focus{
     color: var(--secondary-color);
