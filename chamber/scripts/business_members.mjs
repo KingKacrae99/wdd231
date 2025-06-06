@@ -1,6 +1,4 @@
 const cards = document.querySelector('.cards');
-const listButton = document.querySelector('#list');
-const gridButton = document.querySelector('#grid');
 
 export const showMembers=((members) =>{
     members.forEach(member => {
