@@ -48,6 +48,10 @@
         padding-top: 3rem;
         align-items: normal;
     }
+    .active{
+       border-bottom: 4px solid var(--accent);
+       transition: 1s;
+    } 
     ul li a:hover{
     border: none;
     }
@@ -66,22 +70,36 @@
        font-size: 2.5rem;
     }
 
-    .home-content{
+    main .home-content{
         flex-direction: row;
     }
+    .home-content > section{
+        flex: 1;
+        flex-direction: column;
+        display: flex;
+    }
 
-    .home-content .events{
+    main .home-content .events{
         flex: 2;
     }
-    .home-content .current-weather{
+    main .home-content .current-weather{
         flex: 1;
     }
-    .home-content .weather-forecast{
+    .current-weather figure #weather-icon{
+        width: 34%;
+        margin-top: 0rem;
+        align-self: flex-start;
+    }
+    main .home-content .weather-forecast{
         flex: 1;
     }
-    .company-cards{
-    flex-direction: row;
-   }
+    main .home-content .weather-forecast p{
+        margin: 1rem 2rem ;
+        font-size: 1.5rem;
+    }
+    main .company-cards{
+      flex-direction: row;
+    }
 
 
 /* buttons designs */

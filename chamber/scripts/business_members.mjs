@@ -46,23 +46,21 @@ function randomSelect(arr){
 export function showFewMembers(data){
     const cardHeaders = document.querySelectorAll('.card-header h2');
     const cardMotto = document.querySelectorAll('.card-header p');
-    const businessContents = document.querySelectorAll('.card-body');
+    const cardContents = document.querySelectorAll('.card-content');
+    const businessIcon = document.querySelectorAll('.business-icon');
+
     let businesses=randomSelect(data)
+    console.log(businesses)
     businesses.forEach((business, index) => {
         cardHeaders[index].textContent =`${business.name}`;
         cardMotto[index].textContent = `${business.description}`;
         
-        const logo = document.createElement('img');
-        const unOrderList = document.createElement('ul')
-        logo.setAttribute('src', business.image);
-        logo.setAttribute('alt', business.name);
-        logo.setAttribute('width', 100);
-
-        unOrderList.innerHTML = `<li><strong>Email:</strong>${business.email}</li>
-                                 <li><strong>Phone:</strong>${business.phone}</li>
-                                 <li><strong>web:</strong>${business.website}</li>`;
-        businessContents[index].appendChild(logo);
-        businessContents[index].appendChild(unOrderList); 
+        businessIcon[index].setAttribute('src', business.image);
+        businessIcon[index].setAttribute('alt', business.name);
+        businessIcon[index].setAttribute('width', 100);
+        cardContents[index].innerHTML = `<p><strong>Email:</strong>${business.email}</p>
+                                        <p><strong>Phone:</strong>${business.phone}</p>
+                                        <p><strong>web:</strong>${business.website}</p>`; 
     });
 
 

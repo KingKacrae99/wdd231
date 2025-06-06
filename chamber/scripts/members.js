@@ -28,8 +28,6 @@ function displayMenu() {
     gridButton.addEventListener('click',showGrid);
 }
 
-
-
 getMember();
 displayMenu();
 getDateTime();
