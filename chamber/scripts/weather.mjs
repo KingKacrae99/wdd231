@@ -2,6 +2,7 @@ import showWeather from "./currentweather.mjs";
 import showForecast from "./weatherforecast.mjs";
 import { showFewMembers } from "./business_members.mjs";
 import { getDateTime } from "./date_time.mjs";
+import { togglMenu } from "./toggle.mjs";
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=9.11&lon=7.39&units=metric&appid=10db7d4bffa3c6ef8f5a503de083d7bd'
 const forcastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=9.11&lon=7.39&units=metric&appid=10db7d4bffa3c6ef8f5a503de083d7bd'
@@ -39,7 +40,7 @@ async function getMembers() {
     const data = await response.json();
     return showFewMembers(data.members);
 }
-
+togglMenu
 fetchApi();
 fetchForecast();
 getMembers()

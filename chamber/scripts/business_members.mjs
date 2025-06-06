@@ -1,3 +1,5 @@
+const cards = document.querySelector('.cards');
+
 export const showMembers=((members) =>{
     members.forEach(member => {
         let card = document.createElement('section');
