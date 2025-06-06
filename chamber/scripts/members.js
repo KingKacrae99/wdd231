@@ -6,6 +6,7 @@ import { getDateTime } from "./date_time.mjs";
 
 const listButton = document.querySelector('#list');
 const gridButton = document.querySelector('#grid');
+const cards = document.querySelector('.cards');
 
 const navMenu = document.querySelector('nav ul');
 
