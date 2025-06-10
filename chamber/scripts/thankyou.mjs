@@ -25,8 +25,6 @@ businessInfo.innerHTML =`<h2>Organization Info </h2>
 <p><strong>Organization Name:</strong> ${organization}</p>
 <p><strong>Description:</strong> ${description}</p>
 <p><strong>Membership Level</strong> ${membership}</p>`
-
-
 };
 displayFormInto();
-togglMenu();
+togglMenu

@@ -174,7 +174,7 @@
     text-align: left;
     min-height: 100vh;
 }
-.overlay-content {
+.thankyou-info .overlay-content {
   max-width: 45%;
   margin-left: auto; /* push content away from the image text */
   padding: 2rem;
