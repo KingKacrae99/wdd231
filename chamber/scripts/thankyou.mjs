@@ -12,6 +12,10 @@ const membership = params.get('membership');
 const description = params.get('description');
 const timestamp = params.get('timestamp');
 
+const today = new Date();
+timestamp = today.getTime()
+
+
 const userInfo = document.querySelector('.left');
 const businessInfo = document.querySelector('.right')
 userInfo.innerHTML = `
@@ -24,7 +28,8 @@ userInfo.innerHTML = `
 businessInfo.innerHTML =`<h2>Organization Info </h2>
 <p><strong>Organization Name:</strong> ${organization}</p>
 <p><strong>Description:</strong> ${description}</p>
-<p><strong>Membership Level</strong> ${membership}</p>`
+<p><strong>Membership Level</strong> ${membership}</p>
+<p><strong>Joined</strong> ${timestamp}</p>`
 };
 displayFormInto();
 togglMenu

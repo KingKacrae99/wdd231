@@ -2,10 +2,10 @@ import { togglMenu } from "./toggle.mjs";
 import { getDateTime } from "./date_time.mjs";
 
 function getMoreInfo(){
-    const nonProfit = document.querySelector('#non-profit');
-    const bronze = document.querySelector('#bronze');
-    const silver = document.querySelector('#silver');
-    const gold =document.querySelector('#gold');
+    const nonProfit = document.querySelector('#non-profit-level');
+    const bronze = document.querySelector('#bronze-level');
+    const silver = document.querySelector('#silver-level');
+    const gold =document.querySelector('#gold-level');
 
     let details = {
         header: '',
@@ -14,11 +14,11 @@ function getMoreInfo(){
     nonProfit.addEventListener('click', () => {
         details.header = "Non-Profit Membership Level";
         details.content ="This level is free new members. Members who are on this level, enjoys no benefits until they upgrade to a higher level.";
-        showleveldetail();
+        showleveldetail(details);
     });
     bronze.addEventListener('click', () => {
         details.header="Bronze Membership Level";
-        details.content = "At this level, members enjoy benefit like special events & discounts. Subscription for this level rate @ $20 monthly.";
+        details.content = "At this level, members enjoy benefit like special events & discounts. Subscription for this level rate is $20/month..";
         showleveldetail(details)
     })
     silver.addEventListener('click', () =>{
@@ -28,7 +28,7 @@ function getMoreInfo(){
     });
     gold.addEventListener('click', () => {
         details.header = "Gold Membership Level";
-        details.content = "The Ultimate Level were Members enjoys maximum benefits including spotlight position on adversting, first-hand notification on special events, regular events discounts & training. Subscription rate @ $70."
+        details.content = "The Ultimate Level were Members enjoys maximum benefits including spotlight position on adversting, first-hand notification on special events, regular events discounts & training. Subscription rate @ $70/month."
         showleveldetail(details)
     });
 }
@@ -46,6 +46,8 @@ function showleveldetail(detailedInfo){
     closeModal.addEventListener('click', () => {
         levelDetail.close()
     });
+    closeModal.style.background = 'red';
+    closeModal.style.color ='white';
 
 }
 togglMenu
