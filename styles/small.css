@@ -175,7 +175,25 @@ h1 h2{
     gap: 1rem;
     padding: 1rem;
 }
-
+dialog {
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    padding: 1rem;
+    box-shadow: 0 0 3rem #777;
+    background-color: #fff;
+    max-width: 600px;
+}
+::backdrop{
+    background-color: rgba(0 0 0 / 50%);
+}
+dialog button{
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(0 0 0 / 10%)
+}
 #totalcredits {
     margin: 1rem;
     font-weight: bold;
@@ -188,6 +206,12 @@ h1 h2{
     color: var(--secondary-color);
     border-radius: 5px;
     text-align: center;
+}
+.course .course-code #view-details{
+    background-color: transparent;
+    color: var(--accent);
+    padding: 0%;
+    border: none;
 }
 footer {
     display: flex;

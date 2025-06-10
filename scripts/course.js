@@ -81,6 +81,7 @@ const courses = [
 const menuToggle = document.getElementById('menu-toggle');
 const navMenu = document.querySelector('nav ul');
 
+
 menuToggle.addEventListener('click', function(){
     navMenu.classList.toggle('active');
     if (menuToggle.textContent === 'X'){
@@ -108,11 +109,35 @@ function displayCourse(list) {
         const codeKey = `${course.subject.trim()} ${course.number}`.trim();
         courseCode.innerHTML += `
             <div class="course-code" data-code="${codeKey}">
-                <a>${course.subject} ${course.number}</a>
+                <button id="view-details">${course.subject} ${course.number}</button>
             </div>`;
+        courseCode.addEventListener('click', () =>{
+            displayCourseDetails(course)
+        })
     });
     getTotalCredits(list);
 }
+function displayCourseDetails(course){
+    const viewDetails = document.querySelector('#view-details');
+    const courseDetails = document.querySelector('#course-details');
+    courseDetails.innerHTML=`
+        <button id="closeModal"> X </button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>${course.credits}</p>
+        <p><strong>Certificate</strong>${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+    
+
+    closeModal.addEventListener('click', () =>{
+        courseDetails.close();
+    });
+}
+
+
 function getCompletedCourse(courses) {
     const completed = courses.filter(course => course.completed === true);
     completed.forEach(course => {
