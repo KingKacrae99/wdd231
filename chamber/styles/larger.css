@@ -167,30 +167,53 @@
 /*End Join Page Design */
 
 /* Thankyou page Design */
-.thankyou{
-    margin: 0%;
-    background-image: url("../images/thankyou-bg.webp");
-    background-position: center;
-    background-size: cover;
-}
 .thankyou-info{
     display: flex;
-    flex-direction: column;
     margin: 3rem;
-    backdrop-filter: blur(8px);
+    margin: 0%;
+    text-align: left;
+    min-height: 100vh;
 }
-.user-info{
-    align-self:self-end;
-    /*background-color: rgba(0, 0, 0, 1);*/
-    border: 2px solid transparent;
-    height: 450px;
-    color: var(--Background);
-    width: 50%;
-    margin: 3rem 2rem;
-    text-align: center;
+.overlay-content {
+  max-width: 45%;
+  margin-left: auto; /* push content away from the image text */
+  padding: 2rem;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
 }
-.user-info h2{
-   color: var(--Background); 
+
+.overlay-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--Background);
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+.details .left,
+.details .right {
+  flex: 1;
+}
+
+.details h2 {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.back-btn a{
+    width: 10%;
+    align-self: center;
+    justify-self: center;
+    padding: 0.5rem 1rem;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--Text);
 }
 
 /* End Thankyou page Design */
