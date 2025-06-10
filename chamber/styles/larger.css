@@ -164,6 +164,12 @@
     }
 }
 
+dialog {
+    max-width: 600px;
+    top: 50px;
+    left: 50px;
+}
+
 /*End Join Page Design */
 
 /* Thankyou page Design */
