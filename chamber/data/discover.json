@@ -1,0 +1,53 @@
+{
+    "places":[
+        {
+            "name": "Market Square Gwarinpa",
+            "address": " Along Kado-Gwarinpa Expressway, Gwarinpa Estate, Abuja",
+            "image": "images/market-sqr-img.webp",
+            "description": " A modern supermarket and mini-mall featuring groceries, household items, a bakery, fresh produce, and dining spots imbuing Gwarinpa with a fresh, contemporary commercial atmosphere"
+        },
+        {
+            "name": " Bricks n More",
+            "address": "6th Avenue, Gwarinpa Municipal, Abuja",
+            "image": "images/brick-n-more.webp",
+            "description": "A modern commercial complex featuring fully glazed shopfronts, elevator access, underground parking, and round-the-clock security"
+        },
+        {
+            "name": " Citec Villas & Private Cinema",
+            "address": " Citec Villa Estate, 4th Avenue, Gwarinpa, Abuja",
+            "image": "images/item-image4.webp",
+            "description": " An upscale gated community featuring high-end duplexes, ensuite blocks, swimming pools, and even private cinema rooms"
+        },
+        {
+            "name": "Efab Estate Residential Area",
+            "address": " Gwarinpa, near Efab Mall, Abuja",
+            "image":"images/item-image1.webp",
+            "description": "A gated sub-estate with paved roads, street lighting, communal amenities like gyms and pools, appreciated for its enhanced security and quality residential environment"
+        },
+        {
+            "name": "Gwarinpa Housing Estate",
+            "address": " Phase 3, Gwarinpa, Abuja, Nigeria",
+            "image":"images/gwarinpa-estate.webp",
+            "description": " The largest single housing estate in West Africa, spanning ~1,090ha with wide avenues, diverse architectural styles, and well-structured phases"
+        },
+                {
+            "name": "Crush Café",
+            "address": "Bonny B Corner Shop, 1st Avenue, Gwarinpa Estate, Abuja",
+            "image":"images/crush-cafe.webp",
+            "description": "A spacious café and sports lounge with outdoor seating under palm trees, known for its delicious menu, lively atmosphere, ping-pong & volleyball area, plus welcoming open-air vibes"
+        },
+                {
+            "name": "Gwarinpa/Jabi Lake",
+            "address": " Adjacent to Jabi Lake Mall, Jabi Gwarinpa Expressway, Abuja",
+            "image":"images/gwarinpa-lake.webp",
+            "description": "A scenic, man made lake covering about 1,300 ha, set within Jabi Lake Park. A peaceful oasis for picnics, jogging, boating, and bird watching"
+        },
+        {
+            "name": "Urban Castle Suites",
+            "address": "House 9, Road 9 (off 69A32 Road), Gwarinpa Estate, Abuja,",
+            "image":"images/item-image2.webp",
+            "description": " A family-friendly 4-star hotel and suites with garden, restaurant/bar, free parking, room service, and 24hour front desk"
+        }
+
+    ]
+}

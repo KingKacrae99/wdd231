@@ -114,7 +114,7 @@ ul li a:focus{
 }
 /* Home Page */
 .hero {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../images/medium-hero-img.webp');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('../images/medium-hero-img.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -383,8 +383,6 @@ dialog button{
     border: 1px solid rgba(0 0 0 / 10%);
     border-radius: 5px;
 }
-
-
 /*End Join Page*/
 
 /* Thank You Page Design */
@@ -448,6 +446,90 @@ dialog button{
 }
 
 /* End thank page design*/
+
+/* Discover Designs */
+.greeting{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    color: var(--primary-color);
+}
+
+.placeContainer{
+    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.placeContainer .card{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid #ccc;
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 1rem 0.5rem;
+}
+.placeContainer .card figure figcaption {
+    display: grid;
+    grid-template-areas:
+    "des"
+    "addr";
+    padding: 0.5rem;
+    text-align: center;
+}
+.placeContainer .card h2{
+    text-align: center;
+}
+.placeContainer .card .learn-more{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.placeContainer .card .learn-more button{
+    padding: 0.5rem 2rem;
+    background: var(--primary-color);
+    border-radius: 999px;
+    color: var(--Background);
+    margin: 1rem 0%;
+    width: 90%;
+    border: none;
+}
+.placeContainer .card .learn-more button:hover{
+    background: #0f1f30;
+}
+.placeContainer .card figure{
+    margin: 0%;
+    width: 100%;
+}
+
+.placeContainer .card figure img{
+    margin: 0%;
+    width: 100%;
+    animation: fade 15s;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.placeContainer .card figure figcaption p{
+    grid-area: des;
+    font-weight:normal;
+    text-align: center;
+}
+.placeContainer .card figure figcaption address{
+    grid-area:addr;
+    text-align: center;
+    
+}
+
+/* END DISCOVERED DESIGNS */
 
 .menu{
     display: none;

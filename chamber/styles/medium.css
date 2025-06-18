@@ -1,0 +1,56 @@
+@media screen  and (min-width:40.1rem){
+
+.placeContainer .card h2{
+    text-align: left;
+    margin-left: 1rem;
+}
+.placeContainer .card .learn-more{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.placeContainer .card .learn-more button{
+    padding: 1rem 2rem;
+}
+.placeContainer .card figure{
+    display: flex;
+    grid-template-areas:
+    "virtual"
+    "figcap";
+    margin: 0%;
+    width: 100%;
+}
+
+.placeContainer .card figure img{
+    margin: 0%;
+    width: 100%;
+    grid-area: virtual ;
+}
+.placeContainer .card figure figcaption {
+    grid-area: figcap;
+    padding: 0.3rem .2rem;
+    margin: 0.5rem 0.3rem;
+    text-align: left;
+}
+.placeContainer .card figure figcaption p{
+    text-align: left;
+}
+.placeContainer .card figure figcaption address{
+    padding: 0%;
+    margin: .1rem .3rem;
+}
+
+}
+@media screen and (min-width:64.1rem) {
+     .placeContainer{
+        grid-template-columns: 1fr 1fr;
+     }
+     .placeContainer .card{
+        transition: transform 0.3s;
+        transform-origin: center;
+     }
+     .placeContainer .card:hover{
+        transform : scale(1.05);
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover | Gwarinpa Chamber of commerce</title>
+    <meta name="description" content="Show casing beauty of Gwarinpa and it offers. ">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="King Emmanuel Aguomba">
+    <link rel="stylesheet" href="../styles/normalizer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title" content="Gwarinpa Chamber of Commerce">
+    <meta property="og:description" content="A resource hub for businesses in the city of Abuja"> 
+    <meta property="og:image" content="https://kingkacrae99.github.io/wdd231/chamber/images/chamber-of-commerce-emblem.jpg">
+    <meta property="og:url" content="https://kingkacrae99.github.io/wdd231/chamber/directory.html">
+    <meta property="og:locale" content="en_US"> 
+    <script type="module" src="scripts/discover.mjs" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="images/chamber-logo1.webp" alt="chamber-logo" width="100" height="100" loading="eager" >
+                <div class="logo-text">
+                    <h1>Gwarinpa</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <button class="menu-button" id="menu-button" aria-label="Toggle Navigation Menu">
+                &#x2630;
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://kingkacrae99.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://kingkacrae99.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li><a href="https://kingkacrae99.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://kingkacrae99.github.io/wdd231/chamber/discover.html" class="active">Discover</a></li>
+            </ul>
+        </nav>            
+    </header>
+    <main>
+        <h1> Explore Gwarinpa</h1>
+        <div class="greeting">
+            <p class="visit-msg"></p>
+        </div>
+        <div class="placeContainer"></div>
+    </main>
+    <footer>
+        <div class="chamber-info">
+            <p>Gwarinpa Chamber of Commerce</p>
+            <p>Opp kfc, chembian 4th avenue</p>
+            <p> Gwarinpa, Abuja</p>
+            <p>info@gwarinpa.org</p>
+            <p>+234 1234567890</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/gwarinpa" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com/gwarinpa" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/gwarinpa/" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/company/gwarinpa/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+        <div class="developer-info">
+            <p> WDD 231 class project</p>
+            <p> King Emmanuel Aguomba</p>
+            <p>&copy; <span id="thisyear"></span>Gwarinpa Chamber of Commerce</p>
+            <p><small>Last Updated: <span id="last-updated"></span></small></p>
+        </div>
+    </footer>
+</body>
+</html>
