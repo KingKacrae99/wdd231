@@ -1,13 +1,57 @@
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
+@media screen and (min-width:64rem) {
+    main .hero .hero-img{
+    display: block;
+    border-radius: 5px;
+}
+.about .content{
+    margin: 4rem;
+    padding: 3rem 0rem;
+    color: var(--background);
+    width: 50%;
+    height: 62.5rem;
+}
+.about .content h2{
+    font-size: 2.5rem;
+}
+.about .content h3{
+    font-size: 1.5rem;
+}
+.about .content p{
+    margin:1rem  0rem;
+    word-spacing: 100%;
+    font-size: 1.2rem;
+    font-weight: normal;
 
-    header h1 {
-        font-size: 2rem;
-    }
+}
+main section .features{
+    gap: 1rem;
+}
+main .team{
+    flex-direction: row;
+    margin: 7rem 3rem;
+}
+main .team .team-members{
+    gap: 3;
+}
+main .team .team-title{
+    flex: 1;
+    align-self: center;
+    font-size: 2.5rem;
+}
 
-    main h2 {
-        font-size: 1.3rem;
-    }
+
+/*services page*/
+main .service-hero{
+    padding-top: 4rem;
+    height: 1000px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.service-hero .key-service{
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+/* verification page */
+
+
 }

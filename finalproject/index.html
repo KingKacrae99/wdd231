@@ -3,60 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediCheck | Web & Computing Certificate Course WDD 231</title>
+    <title>Home | MediCheck</title>
     <meta name="description" content="The purpose of this website is to help verify the authenticity of drugs before consuming or prescribing them for treatment.">
     <!--<link rel="icon" href="favicon.ico">-->
+    <link rel="icon" type="image/webp" href="images/favicon.webp">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
     <meta name="author" content="King Emmanuel Aguomba">
     <!--<link rel="stylesheet" href="../styles/normalizer.css">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
-
+    <meta property="og:title" content="MediCheck">
+    <meta property="og:description" content="A site to help medical professional verify the authenticity of drugs online before prescription & consuming"> 
+    <meta property="og:image" content="https://kingkacrae99.github.io/wdd231/finalproject/images/medicheckfavicon.jpg">
+    <meta property="og:url" content="https://kingkacrae99.github.io/wdd231/finalproject/index.html">
+    <meta property="og:locale" content="en_US"> 
+    <script type="module" src="scripts/home.mjs"></script>
 </head>
-<body>
+<body class="home">
     <header>
-        <h1>MEDICHECK</h1>
-        <p> Medicheck branding name was chosen due to the purpose and functionality of the website.</p>
+        <div class="logo">
+            <img src="images/medicheckfavicon-logo-removebg-preview.webp" alt="logo" width="34" height="34">
+            <h1>MEDICHECK</h1>
+        </div>
+        <button class="menu-button" id="menu-button" aria-label="Toggle Navigation Menu">
+            &#x2630;
+        </button>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a>Inventory</a></li>
+                <li class="adder"><a>verification</a></li>
+                <li><a href="service.html">services</a></li>
+            </ul>
+        </nav>
+        <div class="verify">
+            <a href="verification.html">verify</a>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Site Purpose</h2>
-            <p>
-                The purpose of this website is to help users of medical professional verify the authenticity of drugs online before consuming 
+       <div class="hero">
+            <div class="hero-text">
+                <h1>Drug
+                    verification
+                </h1>
+                <p>
+                this website is to help users of medical professional verify the authenticity of drugs online before consuming 
                 or prescribing them for treatment. It come with features viewing inventory, Real time drug verification 
                 using the National Agency for Food and Drug Administration and Control(NAFDAC).
-            </p>
-        </section>
-        <section>
-            <h2>Scenario</h2>
-            <p><strong>Target Audience: </strong> Medical Professionals, patients, Pharmarcies</p>
-            <p>Scenario:</p>
-            <ol>
-                <li>“How can I check if a drug is verified by NAFDAC?</li>
-                <li>Where can I find the details of a specific drug batch?</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Color Scheme</h2>
-            <p><strong>Primary (#264653):</strong> will be used for headings and the navigation bar.</p>
-            <p><strong>Background(White): </strong> Background will remain white for readability.</p>
-            <p><strong>accent(#2a9d8f):</strong>  will be used for buttons and links.</p>
-        </section>
-        <section>
-            <h2>Typography</h2>
-            <ol>
-                <li>Roboto, sans serif: will be used for body text and paragraphs.</li>
-                <li>Times New Roman: will be used for headings</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Wire Frame</h2>
-            <img src="images/small-wireframe.webp" alt="small-device-wireframe" width="300" height="300">
-            <img src="images/large-wireframe.webp" alt="large-device-wireframe" width="300" height="300">
-        </section>
+                </p>
+                <div class="cta">
+                    <a href="verification.html">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="images/background-img.webp" alt="banner" loading="lazy">
+            </div>
+       </div> 
+       <section class="about">
+            <div class="content">
+                <h2>About MediCheck</h2>
+                <p>
+                    MEDICHECK is a digital platform dedicated to the 
+                    verification of pharmaceutical drugs to combat the growing 
+                    threat of counterfeit medications in our society. By allowing
+                    users to check the authenticity of drugs using batch numbers 
+                    and NAFDAC verification, MEDICHECK empowers patients, pharmacists, 
+                    and healthcare professionals to make safer health decisions.
+                    In addition to verification tools, the platform also provides 
+                    drug inventory features to track and manage legitimate medications 
+                    for personal or institutional use.
+                </p><br>
+                <h3>Our Mission</h3>
+                <p>
+                    Our mission at MEDICHECK is to protect public health by promoting access
+                    to authentic and safe medications. We aim to bridge the gap between 
+                    regulatory drug data and everyday users by offering a simple, reliable platform
+                    for drug verification. Through technology and collaboration, we strive to reduce the 
+                    circulation of counterfeit drugs and enhance trust in medical prescriptions across 
+                    Nigeria and beyond.
+                </p><br>
+                <h3>Our Values</h3>
+                <p>
+                    At the heart of MEDICHECK are the values of integrity, transparency, and public safety.
+                    We are committed to delivering accurate drug information, maintaining user privacy, and
+                    supporting regulatory agencies like NAFDAC in their mission to ensure pharmaceutical 
+                    quality. We believe that everyone from the rural patient to the urban pharmacist 
+                    deserves tools that help them verify medications and safeguard health.
+                </p>
+            </div>
+       </section>
+       <section>
+        <h2 class="feature-title">Features</h2>
+        <div class="features">
+            <figure>
+                <img src="images/verification-img.webp" alt="verification" loading="lazy" width="200" height="200">
+                <figcaption>
+                    <h3>Real Time Drug verification</h3>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/inventory-img.webp" alt="Stock-taking" loading="lazy" width="200" height="200">
+                <figcaption>
+                    <h3>Viewing inventory</h3>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/nafdac.jpg" alt="Nafdac" loading="lazy" width="200" height="200">
+                <figcaption>
+                    <h3>Nafdac Verified Drugs</h3>
+                </figcaption>
+            </figure>
+        </div>
+       </section>
+       <section class="team">
+          <div class="team-title">
+            <h2>Meet our Medical Professionals</h2>
+            <p>Our team is dedicated to combating the growing issue of counterfeit drugs in the market.</p>
+          </div>
+          <div class="team-members">
+          </div>
+       </section>
     </main>
+    <footer>
+        <div class="column-1">
+            <img src="images/medicheck.png" alt="MediCheck" width="60" height="50">
+            <h1>MEDICHECK</h1>
+        </div>
+        <div class="column-2">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>services</a></li>
+                <li><a>inventory</a></li>
+                <li><a>verify</a></li>
+            </ul>
+        </div>
+        <div class="column-3">
+            <h3>Contact</h3>
+            <p>support@MediCheck.com</p>
+            <p>+234 800 123 4567</p>
+            <address>
+                Lagos, Nigeria
+            </address><br>
+            <div class="social-media">
+                <a class="app">
+                    <img src="images/facebook.svg" alt="facebook">
+                </a>
+                <a class="app">
+                    <img src="images/instagram.svg" alt="instagram">
+                </a>
+                <a class="app">
+                    <img src="images/linkedin.svg" alt="linkedin">
+                </a>
+                <a class="app">
+                    <img src="images/twtter-icon.svg" alt="X">
+                </a>
+                <a class="app">
+                    <img src="images/whatsapp-icon.svg" alt="whatsapp-icon">
+                </a>
+            </div>
+        </div>
+        <p id="footer-bottom">&copy; <span id="thisyear"></span> MediCheck. All rights reserved.</p>
+    </footer>
 </body>
 </html>

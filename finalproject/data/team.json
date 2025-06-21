@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Sophia Ezeani",
+    "specialty": "Pharmacologist",
+    "role": "Verifies drug compositions and interacts with regulatory databases",
+    "photo": "images/team-member-1.webp"
+  },
+  {
+    "name": "Dr. Ashley Bradley",
+    "specialty": "Public Health Expert",
+    "role": "Educates users on safe medication practices and drug recalls",
+    "photo": "images/team-member-2.webp"
+  },
+  {
+    "name": "Dr. Amina Yusuf",
+    "specialty": "Clinical Pharmacist",
+    "role": "Validates expiry dates and batch information",
+    "photo": "images/team-member-3.webp"
+  },
+  {
+    "name": "Dr. Anita Jeff",
+    "specialty": "Toxicologist",
+    "role": "Advises on counterfeit drug symptoms and reactions",
+    "photo": "images/team-member-4.webp"
+  },
+  {
+    "name": "King Kacrae",
+    "specialty": "Bioinformatics Software Developer",
+    "role": "Creating software,web tools for processing and visualizing biological data.",
+    "photo": "images/team-member-5.webp"
+  }
+]

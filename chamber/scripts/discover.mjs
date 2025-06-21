@@ -42,7 +42,6 @@ function saveLastVisit(){
         today: now.getDate(),
         timestamp: now.getTime()
     }
-    console.log(now.getDate())
 
     const visitDate = localStorage.setItem("last-Visit", JSON.stringify(lastVisit))
 }

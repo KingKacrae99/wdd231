@@ -1,0 +1,404 @@
+{
+  "drugs": [
+    {
+      "name": "Drug BpnZ",
+      "batch": "EMO477",
+      "manufacturer": "Anderson Group",
+      "expiry": "2027-05-13",
+      "nafdac_no": "04-4828",
+      "verified": true
+    },
+    {
+      "name": "Drug nhTX",
+      "batch": "BBE770",
+      "manufacturer": "Smith, Espinoza and Wade",
+      "expiry": "2027-08-06",
+      "nafdac_no": "04-4550",
+      "verified": true
+    },
+    {
+      "name": "Drug wVwz",
+      "batch": "YEY122",
+      "manufacturer": "Duncan, Thompson and Turner",
+      "expiry": "2027-08-29",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug FFMj",
+      "batch": "QQA948",
+      "manufacturer": "White, Ramirez and Bentley",
+      "expiry": "2028-09-20",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug Soqd",
+      "batch": "KVQ201",
+      "manufacturer": "Rojas-Smith",
+      "expiry": "2026-08-11",
+      "nafdac_no": "04-8718",
+      "verified": true
+    },
+    {
+      "name": "Drug SQig",
+      "batch": "YHK444",
+      "manufacturer": "James, Burke and Cain",
+      "expiry": "2028-05-24",
+      "nafdac_no": "04-3847",
+      "verified": true
+    },
+    {
+      "name": "Drug ycrA",
+      "batch": "SDK251",
+      "manufacturer": "Mendez, Love and Woods",
+      "expiry": "2027-08-29",
+      "nafdac_no": "04-8500",
+      "verified": true
+    },
+    {
+      "name": "Drug oWsU",
+      "batch": "QEN904",
+      "manufacturer": "Johnson-Fernandez",
+      "expiry": "2027-10-11",
+      "nafdac_no": "04-6656",
+      "verified": true
+    },
+    {
+      "name": "Drug zVvV",
+      "batch": "KHH711",
+      "manufacturer": "Castaneda Group",
+      "expiry": "2027-04-27",
+      "nafdac_no": "04-4189",
+      "verified": true
+    },
+    {
+      "name": "Drug OBLt",
+      "batch": "ZNL070",
+      "manufacturer": "Nguyen Inc",
+      "expiry": "2028-01-10",
+      "nafdac_no": "04-6217",
+      "verified": true
+    },
+    {
+      "name": "Drug YFvE",
+      "batch": "TZY220",
+      "manufacturer": "Rangel-Garcia",
+      "expiry": "2028-01-27",
+      "nafdac_no": "04-7335",
+      "verified": true
+    },
+    {
+      "name": "Drug VnTQ",
+      "batch": "BJF246",
+      "manufacturer": "Johnson-Bennett",
+      "expiry": "2026-10-08",
+      "nafdac_no": "04-9867",
+      "verified": true
+    },
+    {
+      "name": "Drug IhgM",
+      "batch": "CHM212",
+      "manufacturer": "Jenkins, Vargas and Ingram",
+      "expiry": "2027-05-07",
+      "nafdac_no": "04-3850",
+      "verified": true
+    },
+    {
+      "name": "Drug ioTX",
+      "batch": "COV139",
+      "manufacturer": "Hall-Scott",
+      "expiry": "2028-09-08",
+      "nafdac_no": "04-1147",
+      "verified": true
+    },
+    {
+      "name": "Drug gbVH",
+      "batch": "LTE393",
+      "manufacturer": "Reed-Barnes",
+      "expiry": "2027-08-16",
+      "nafdac_no": "04-8442",
+      "verified": true
+    },
+    {
+      "name": "Drug OKup",
+      "batch": "FAO441",
+      "manufacturer": "Murphy-Jordan",
+      "expiry": "2028-01-17",
+      "nafdac_no": "04-1749",
+      "verified": true
+    },
+    {
+      "name": "Drug EQyn",
+      "batch": "IIJ907",
+      "manufacturer": "Shaw-Cole",
+      "expiry": "2027-03-21",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug dIyL",
+      "batch": "SYS593",
+      "manufacturer": "Garcia-Walker",
+      "expiry": "2027-03-18",
+      "nafdac_no": "04-9034",
+      "verified": true
+    },
+    {
+      "name": "Drug ZqcN",
+      "batch": "YLX151",
+      "manufacturer": "Brooks-Santiago",
+      "expiry": "2027-03-15",
+      "nafdac_no": "04-2177",
+      "verified": true
+    },
+    {
+      "name": "Drug aUSi",
+      "batch": "ZYD914",
+      "manufacturer": "Carter-Lopez",
+      "expiry": "2028-09-18",
+      "nafdac_no": "04-7887",
+      "verified": true
+    },
+    {
+      "name": "Drug xcdN",
+      "batch": "POI697",
+      "manufacturer": "Weaver, Brewer and Hickman",
+      "expiry": "2028-08-23",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug twXu",
+      "batch": "RYD449",
+      "manufacturer": "Hutchinson-Becker",
+      "expiry": "2028-07-13",
+      "nafdac_no": "04-2017",
+      "verified": true
+    },
+    {
+      "name": "Drug CLfT",
+      "batch": "ULE943",
+      "manufacturer": "Anderson-Esparza",
+      "expiry": "2028-09-09",
+      "nafdac_no": "04-6433",
+      "verified": true
+    },
+    {
+      "name": "Drug prTd",
+      "batch": "OLZ872",
+      "manufacturer": "Moore-Smith",
+      "expiry": "2027-08-30",
+      "nafdac_no": "04-2107",
+      "verified": true
+    },
+    {
+      "name": "Drug aniC",
+      "batch": "KRR550",
+      "manufacturer": "White, Hester and Thomas",
+      "expiry": "2026-11-18",
+      "nafdac_no": "04-9126",
+      "verified": true
+    },
+    {
+      "name": "Drug sqjQ",
+      "batch": "DYW532",
+      "manufacturer": "Cordova Inc",
+      "expiry": "2026-02-13",
+      "nafdac_no": "04-8493",
+      "verified": true
+    },
+    {
+      "name": "Drug yCPX",
+      "batch": "BIX145",
+      "manufacturer": "Carr, Martin and Gonzalez",
+      "expiry": "2028-02-02",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug UKMN",
+      "batch": "AAR193",
+      "manufacturer": "Wright Inc",
+      "expiry": "2027-07-15",
+      "nafdac_no": "04-8854",
+      "verified": true
+    },
+    {
+      "name": "Drug AJkr",
+      "batch": "JSF427",
+      "manufacturer": "Smith, Jones and Potter",
+      "expiry": "2027-09-29",
+      "nafdac_no": "04-6547",
+      "verified": true
+    },
+    {
+      "name": "Drug xRWy",
+      "batch": "WZV743",
+      "manufacturer": "Tanner, Medina and Wagner",
+      "expiry": "2027-06-30",
+      "nafdac_no": "04-2097",
+      "verified": true
+    },
+    {
+      "name": "Drug zhqy",
+      "batch": "VEF785",
+      "manufacturer": "Mitchell-Baldwin",
+      "expiry": "2028-06-02",
+      "nafdac_no": "04-2506",
+      "verified": true
+    },
+    {
+      "name": "Drug slyO",
+      "batch": "GVA869",
+      "manufacturer": "Gardner-Carlson",
+      "expiry": "2028-02-11",
+      "nafdac_no": "04-7087",
+      "verified": true
+    },
+    {
+      "name": "Drug EIPx",
+      "batch": "OXT208",
+      "manufacturer": "Hayes-Williams",
+      "expiry": "2027-03-03",
+      "nafdac_no": "04-7582",
+      "verified": true
+    },
+    {
+      "name": "Drug Avsl",
+      "batch": "KJJ946",
+      "manufacturer": "Carr Inc",
+      "expiry": "2026-06-05",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug GXHM",
+      "batch": "LIP989",
+      "manufacturer": "Aguilar-Young",
+      "expiry": "2026-09-15",
+      "nafdac_no": "04-4184",
+      "verified": true
+    },
+    {
+      "name": "Drug odjp",
+      "batch": "KYY943",
+      "manufacturer": "Weaver Ltd",
+      "expiry": "2028-08-02",
+      "nafdac_no": "04-7662",
+      "verified": true
+    },
+    {
+      "name": "Drug hBBD",
+      "batch": "RFF877",
+      "manufacturer": "Ellis-Mooney",
+      "expiry": "2026-08-08",
+      "nafdac_no": "04-6892",
+      "verified": true
+    },
+    {
+      "name": "Drug hvYB",
+      "batch": "TLI829",
+      "manufacturer": "Cortez, Thomas and Cunningham",
+      "expiry": "2028-06-28",
+      "nafdac_no": "04-2619",
+      "verified": true
+    },
+    {
+      "name": "Drug pvqZ",
+      "batch": "MMM322",
+      "manufacturer": "Cordova-Davis",
+      "expiry": "2028-01-29",
+      "nafdac_no": "04-7555",
+      "verified": true
+    },
+    {
+      "name": "Drug nQNJ",
+      "batch": "OCM630",
+      "manufacturer": "Hughes-Bond",
+      "expiry": "2026-09-10",
+      "nafdac_no": "04-2260",
+      "verified": true
+    },
+    {
+      "name": "Drug WxHj",
+      "batch": "SZJ572",
+      "manufacturer": "Berger, Rice and Warner",
+      "expiry": "2028-09-26",
+      "nafdac_no": "04-2551",
+      "verified": true
+    },
+    {
+      "name": "Drug jGGE",
+      "batch": "HFE068",
+      "manufacturer": "Lynch PLC",
+      "expiry": "2028-04-13",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug Tgjk",
+      "batch": "GNF407",
+      "manufacturer": "Wright Group",
+      "expiry": "2026-05-28",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug bLlb",
+      "batch": "PZP837",
+      "manufacturer": "Petersen Ltd",
+      "expiry": "2026-06-17",
+      "nafdac_no": "04-3555",
+      "verified": true
+    },
+    {
+      "name": "Drug tUCC",
+      "batch": "TDA454",
+      "manufacturer": "Johns-Sanchez",
+      "expiry": "2027-10-27",
+      "nafdac_no": "N/A",
+      "verified": false
+    },
+    {
+      "name": "Drug JWcx",
+      "batch": "CXV623",
+      "manufacturer": "Mccoy Ltd",
+      "expiry": "2027-03-22",
+      "nafdac_no": "04-2861",
+      "verified": true
+    },
+    {
+      "name": "Drug dkvh",
+      "batch": "AOG395",
+      "manufacturer": "Kennedy Inc",
+      "expiry": "2026-04-17",
+      "nafdac_no": "04-1829",
+      "verified": true
+    },
+    {
+      "name": "Drug OsWt",
+      "batch": "VJI873",
+      "manufacturer": "White LLC",
+      "expiry": "2026-04-20",
+      "nafdac_no": "04-5343",
+      "verified": true
+    },
+    {
+      "name": "Drug FOdY",
+      "batch": "QPY328",
+      "manufacturer": "Marsh, Scott and Chandler",
+      "expiry": "2026-10-25",
+      "nafdac_no": "04-9034",
+      "verified": true
+    },
+    {
+      "name": "Drug ZeIP",
+      "batch": "EQB049",
+      "manufacturer": "Walsh Ltd",
+      "expiry": "2026-02-02",
+      "nafdac_no": "04-7107",
+      "verified": true
+    }
+  ]
+}

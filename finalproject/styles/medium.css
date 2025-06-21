@@ -1,0 +1,257 @@
+@media screen and (min-width: 641px) {
+
+    :root{
+    --primary: linear-gradient(135deg, #140313 0%, #0b0413 30%, #140313 70%);
+    --background: White;
+    --accent: #fbe8f9 ;
+    }
+    header {
+    grid-template-areas: 
+    "a b c";
+    grid-template-columns: 1fr 2fr 1fr;
+    padding:1rem 1.8rem ;
+    gap: 0rem;
+  }
+   header .logo{
+    grid-area: a;
+  }
+ .logo h1{
+    font-size: 1.5rem;
+  }
+  .logo img{
+    height: 34px;
+    width: 34px;
+}
+    .menu-button{
+        display: none;
+    }
+  header nav{
+    grid-area: b;
+  }
+  header .verify{
+    grid-area: c;
+    display: block;
+  }
+  .adder{
+    display: none;
+}
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 0.3rem 0;
+}
+.active{
+    border-bottom: 3px solid #af96ad;
+}
+main .hero{
+    display: grid;
+    grid-template-areas:
+    "a b";
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    align-items: center;
+    margin: 3rem;
+    gap: 1rem;
+    text-align: left;
+}
+main .hero .hero-text{
+    grid-area: a;
+}
+main .hero .hero-img{
+    display: none;
+    grid-area: b;
+}
+main .hero .hero-text h1{
+    text-align: left;
+}
+main .hero .hero-img img{
+    border-radius: 5px;
+}
+main .about{
+    background:linear-gradient(to right, 
+    rgba(0, 0, 0, 1) 20%, 
+    rgba(10, 0, 20, 0.95) 50%, 
+    rgba(10, 0, 20, 0.90) 80%
+  ),
+  url('../images/about-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(8px);
+}
+.about .content{
+    margin: 4rem;
+    padding: 3rem 0rem;
+    color: var(--background);
+    width: 50%;
+}
+.content h2, .content h3{
+    color: var(--background);
+}
+main section .features{
+    grid-template-areas: 
+    "a b c";
+}
+.features h2{
+    text-align: center;
+    margin-top: 0rem;
+}
+.features figure img{
+    border: 1px solid #ccc;
+    /*box-shadow: 1px 1px 5px rgba(10, 0, 20, 0.90);*/
+}
+.features figure figcaption{
+    font-weight: 700;
+    margin: .75rem 0rem;
+}
+
+main .team .team-members{
+    flex: 2;
+    grid-template-areas:
+    "a b";
+    grid-template-columns: 1fr 1fr;
+}
+.team .team-members .team-member{
+    gap: 1.5rem;
+}
+.team-members .team-member img{
+    grid-area: a;
+    width: 120px;
+    height: 120px;
+}
+
+.team-members .team-member .team-details h3{
+    font-size: 1.2rem;
+} 
+.team-members .team-member .team-details {
+    font-size: 1rem;
+    grid-area: b;
+} 
+
+/* End home page */
+
+/*service page*/
+main .service-hero   {
+    padding-top: 3rem;
+
+}
+
+main .service-hero .hero-text  {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+/* End service page */
+main .service-hero .hero-text h1 {
+    font-size: 3rem;
+}
+main .service-hero .hero-text p {
+    font-size: 1.2rem;
+}
+.service-hero .key-service{
+    grid-template-columns: 1fr 1fr;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 2rem;
+}
+.key-service .service-card{
+    background: linear-gradient(135deg, #fbe8f9 0%, #e7d8f6 30%, white 70%);
+    color: var(--primary);
+}
+.service-cta h2{
+    font-size: 2.5rem;
+}
+.service-cta li{
+    font-size: 1.1rem;
+    display:flex;
+}
+.service-cta ul li img{
+    display: flex;
+}
+.service-cta .cta-btn{
+    grid-template-areas: 
+    "btn btn";
+    gap: 1rem;
+}
+.service-cta .cta-btn .btn:hover{
+    background: #752f6f;
+}
+/* verification page */
+
+main .container{
+    grid-template-areas:
+    "a ."
+    "b c"
+    "d ." ;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+}
+.container .result{
+    align-self: flex-start;
+}
+.container .support{
+    grid-area: d;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 2rem 3rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.verification-title{
+     font-size: 2.5rem;
+}
+/* End verification page*/
+
+
+/* site plan */
+    .plan-header h1 {
+        font-size: 2rem;
+    }
+/* end site plan*/
+footer{
+    padding: 2rem 2rem;
+    grid-template-areas: 
+    "col1 col2 col3"
+    "col4 col4 col4";
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--accent);
+}
+/* Column1 */
+footer .column-1{
+    grid-area: col1;
+}
+footer .column-1 img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+footer .column-1 h1{
+    font-size: 2.4rem;
+}
+/* end column */
+footer .column-2{
+    grid-area: col2;
+}
+footer .column-3{
+    grid-area: col3;
+}
+footer .column-3 .social-media a img {
+  width: 20px;
+  height: 20px;
+}
+footer .column-3 .social-media a {
+  width: 40px;
+  height: 40px;
+}
+footer #footer-bottom{
+    grid-area: col4;
+}
+
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug verification | MediCheck</title>
+    <meta name="description" content="The purpose of this website is to help verify the authenticity of drugs before consuming or prescribing them for treatment.">
+    <!--<link rel="icon" href="favicon.ico">-->
+    <link rel="icon" type="image/webp" href="images/favicon.webp">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
+    <meta name="author" content="King Emmanuel Aguomba">
+    <!--<link rel="stylesheet" href="../styles/normalizer.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <meta property="og:title" content="MediCheck">
+    <meta property="og:description" content="A site to help medical professional verify the authenticity of drugs online before prescription & consuming"> 
+    <meta property="og:image" content="https://kingkacrae99.github.io/wdd231/finalproject/images/medicheckfavicon.jpg">
+    <meta property="og:url" content="https://kingkacrae99.github.io/wdd231/finalproject/verification.html">
+    <meta property="og:locale" content="en_US"> 
+    <script type="module" src="scripts/verified.mjs"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/medicheckfavicon-logo-removebg-preview.webp" alt="logo" width="34" height="34">
+            <h1>MEDICHECK</h1>
+        </div>
+        <button class="menu-button" id="menu-button" aria-label="Toggle Navigation Menu">
+            &#x2630;
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li ><a>Inventory</a></li>
+                <li class="adder"><a href="verification.html">verification</a></li>
+                <li class=""><a href="service.html">services</a></li>
+            </ul>
+        </nav>
+        <div class="verify">
+            <a href="verification.html">verify</a>
+        </div>
+    </header>
+    <main>
+       <div class="container">
+        <h1 class="verification-title">Verify A Drug</h1>
+        <form method="get" action="verification.html">
+            <label for="drugname"> Drug Name</label><br>
+            <input type="text" id="drugname" name="drugname" title="The name of the drug" required><br>
+            <label for="batch-no"> Batch Number</label><br>
+            <input type="text" id="batch-no" name="batch" title="The batch number of the drug name" required>
+            <br>
+            <label for="nafdac"> Nafdac Number</label><br>
+            <input type="text" id="nafdac" name="nafdac" title="The nafdac registration number" required>
+            <br>
+            <label for="manufacturer">Manufacturer</label><br>
+            <input type="text" id="manufacturer" name="manufacturer" title="Company that made the drug"><br>
+            <div class="form-btn">
+                <button type="submit">Verify</button>
+            </div>
+        </form>
+        <section class="result">
+            <h2> Your Drug List</h2>
+        </section>
+        <dialog id="verify-details">
+            <button>close</button>
+        </dialog>
+        <div class="support">
+            <h3>Need Help?</h3>
+            <P>Contact Support</P>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="column-1">
+            <img src="images/medicheck.png" alt="MediCheck" width="60" height="50">
+            <h1>MEDICHECK</h1>
+        </div>
+        <div class="column-2">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>services</a></li>
+                <li><a>inventory</a></li>
+                <li><a>verify</a></li>
+            </ul>
+        </div>
+        <div class="column-3">
+            <h3>Contact</h3>
+            <p>support@MediCheck.com</p>
+            <p>+234 800 123 4567</p>
+            <address>
+                Lagos, Nigeria
+            </address><br>
+            <div class="social-media">
+                <a class="app">
+                    <img src="images/facebook.svg" alt="facebook">
+                </a>
+                <a class="app">
+                    <img src="images/instagram.svg" alt="instagram">
+                </a>
+                <a class="app">
+                    <img src="images/linkedin.svg" alt="linkedin">
+                </a>
+                <a class="app">
+                    <img src="images/twtter-icon.svg" alt="X">
+                </a>
+                <a class="app">
+                    <img src="images/whatsapp-icon.svg" alt="whatsapp-icon">
+                </a>
+            </div>
+        </div>
+        <p id="footer-bottom">&copy; <span id="thisyear"></span> MediCheck. All rights reserved.</p>
+    </footer>
+</body>
+</html>
