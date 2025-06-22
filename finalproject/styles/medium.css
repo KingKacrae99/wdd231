@@ -196,6 +196,22 @@ main .container{
 }
 .container .result{
     align-self: flex-start;
+    padding: 1rem 2rem;
+}
+.container .result h2{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: left;
+}
+.result .druglist{
+    font-size: larger;
+    margin-top: 1rem;
+}
+.container #verify-details{
+    width:100%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 5px;
 }
 .container .support{
     grid-area: d;

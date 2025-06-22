@@ -52,6 +52,10 @@ main .service-hero{
 }
 
 /* verification page */
+.container .result{
+    padding: 1rem 3rem;
+    margin: 0rem 3rem;
+}
 
 
 }

@@ -30,17 +30,27 @@ export default function showDrugInfo(drug){
     }
     
     verifyDetails.showModal()
-
     closeModal.addEventListener('click', () =>{
         verifyDetails.close()
     });
     saveitem.addEventListener('click', () => {
-        localStorage.setItem(drug.batch, JSON.stringify(drug))
-        verifyDetails.innerHTML = `
-        <button id="closeModal">X</button>
-        <h3>Drug has been added to list</h3>`
+        if (localStorage.getItem(drug.name)) {
+            verifyDetails.innerHTML =`
+            <button id="closeModal">X</button>
+            <h3>This drug is already saved in your drug list</h3>`;
+            
+        } else {
+            localStorage.setItem(drug.name, JSON.stringify(drug))
+            console.log(JSON.stringify(drug))
+            verifyDetails.innerHTML = `
+                <button id="closeModal2">X</button>
+                <h3>Drug has been added to list</h3>`
+        }
     });
     dontsave.addEventListener('click', () =>{
         verifyDetails.close()
     });
+    closeModal2.addEventListener('click', () =>{
+        verifyDetails.close()
+    })
 }

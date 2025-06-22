@@ -16,11 +16,7 @@ function verifyDrugs(drugDatas){
     const manufacture= (params.get('manufacturer') || "").trim();
 
     let found = false
-    if (
-        drugName !== "" ||
-        batchNo  !== "" ||
-        nafdac !== ""
-    ){
+    if ( drugName !== "" || batchNo  !== "" || nafdac !== ""){
         if (drugDatas){
             drugDatas.forEach(drug => {
                 if(drugName.toLowerCase() === drug.name.toLowerCase()||
@@ -28,11 +24,13 @@ function verifyDrugs(drugDatas){
                 nafdac === drug.nafdac_no
                 ) {
                     found = true;
-                    showDrugInfo(drug)
+                    showDrugInfo(drug);
+                    window.history.replaceState({}, document.title, window.location.pathname);
                 }
             });
             if (!found) {
-                showDrugInfo(null)
+                showDrugInfo(null);
+                window.history.replaceState({}, document.title, window.location.pathname);
             }
         }
 

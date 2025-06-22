@@ -394,23 +394,43 @@ form .form-btn{
     color: var(--background);
     width: 100%;
 }
-#verify-details{
+.container #verify-details{
     width:100%;
+    max-width: 300px;
     padding: 2rem;
-    top: 50px;
-    left: 10px;
+    align-self: center;
+    justify-self: center;
+    color: #1a051a;
+    border: none;
 }
 ::backdrop{
-    background: rgba(0 0 0 /70%);
+    background: rgba(0 0 0 /80%);
 }
 #verify-details #closeModal{
     padding: 0.2rem .5rem;
     position: absolute;
     top: 22px;
     right: 23px;
+    background:#300930;
+    color: var(--background);
+}
+#verify-details .save-option
+{
+    margin: 1rem 0rem;
+}
+#verify-details .save-option #saveitem, .save-option #dontsave{
+    background: #300930;
+    color: #fbe8f9;
+    padding: .3rem;
+    border-radius: 5px;
+    border: none;
 }
 .container .result{
     grid-area: c;
+    padding: 1rem 2rem; 
+}
+.result .druglist{
+    list-style: none;
 }
 .container .result h2{
     text-align: center;
