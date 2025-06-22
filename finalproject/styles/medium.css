@@ -1,7 +1,7 @@
 @media screen and (min-width: 641px) {
 
     :root{
-    --primary: linear-gradient(135deg, #140313 0%, #0b0413 30%, #140313 70%);
+    --primary: #0b0413;
     --background: White;
     --accent: #fbe8f9 ;
     }
