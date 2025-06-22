@@ -39,6 +39,7 @@ header .logo{
     margin: 0%;
     gap: .2rem;
     padding-top: 0.5rem;
+    margin-right:.5rem ;
 }
 .logo img{
     margin: 0%;
