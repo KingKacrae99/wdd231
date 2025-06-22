@@ -325,10 +325,12 @@ main .service-cta{
 }
 .service-cta ul li{
     padding: 0.5rem;
+    display: flex;
 }
 .service-cta ul li img{
     margin-right: .3rem;
-    display: none;
+    display: flex;
+    width: 34px;
 }
 .service-cta .cta-btn{
     display: grid;
