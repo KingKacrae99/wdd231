@@ -486,6 +486,10 @@ footer .column-2{
 footer .column-2 ul{
     list-style: none;
 }
+footer .column-2 ul li a{
+    text-decoration: none;
+    color: #fbe8f9;
+}
 /* footer column-2*/
 footer .column-3{
     grid-area: c;
