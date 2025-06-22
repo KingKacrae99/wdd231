@@ -73,6 +73,7 @@ header nav ul{
     margin-top: 0%;
     min-width: 40px;
     min-height: 40px;
+    text-align: right;
 }
 header nav ul li{
     width: 100%;
