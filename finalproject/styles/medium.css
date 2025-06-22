@@ -206,6 +206,7 @@ main .container{
 .result .druglist{
     font-size: larger;
     margin-top: 1rem;
+    text-align: left;
 }
 .container #verify-details{
     width:100%;

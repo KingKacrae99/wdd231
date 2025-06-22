@@ -431,6 +431,12 @@ form .form-btn{
 }
 .result .druglist{
     list-style: none;
+    text-align: center;
+}
+.result .druglist li{
+    margin: .4rem 0rem;
+    border-bottom: 1px solid #ccc;
+    padding: .5rem;
 }
 .container .result h2{
     text-align: center;
