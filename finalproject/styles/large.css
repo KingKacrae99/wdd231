@@ -57,12 +57,10 @@ main .service-hero{
 }
 
 footer{
-    padding: 2rem 2rem;
     grid-template-areas: 
     "col1 col2 col3"
     "col4 col4 col4";
     grid-template-columns: 1fr 1fr 1fr;
-    color: var(--accent);
 }
 footer .column-1{
     grid-area: col1;
