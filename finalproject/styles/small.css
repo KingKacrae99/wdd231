@@ -308,6 +308,17 @@ main .service-hero .hero-text h1 {
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
+    animation: slideIn 1s ease-in 1 alternate-reverse ;
+}
+@keyframes slideIn{
+    from{
+        transform: translateX(0);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(100%);
+        opacity: 0.9;
+    }
 }
 .key-service .service-card h2{
     color: #1a051a;
@@ -410,6 +421,34 @@ form .form-btn{
 }
 ::backdrop{
     background: rgba(0 0 0 /80%);
+}
+#verify-details .loader{
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-hidden{
+    display: none;
+}
+.loader::after{
+    content: "";
+    height: 4.68rem;
+    width: 4.68rem;
+    border: 0.9rem solid #fbe8f9;
+    border-top-color: #0b0413;
+    border-radius: 50%;
+    animation: loading .75s ease infinite ;
+}
+@keyframes loading {
+    from {
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+    
 }
 #verify-details #closeModal{
     padding: 0.2rem .5rem;

@@ -234,11 +234,13 @@ main .container{
 footer{
     padding: 2rem 2rem;
     grid-template-areas: 
-    "col1 col2 col3"
-    "col4 col4 col4";
-    grid-template-columns: 1fr 1fr 1fr;
+    "col1 col2 "
+    "col3 ."
+     "col4 .";
+    grid-template-columns: 1fr 1fr ;
     color: var(--accent);
 }
+
 /* Column1 */
 footer .column-1{
     grid-area: col1;
@@ -252,10 +254,10 @@ footer .column-1 h1{
 }
 /* end column */
 footer .column-2{
-    grid-area: col2;
+    grid-area: col3;
 }
 footer .column-3{
-    grid-area: col3;
+    grid-area: col2;
 }
 footer .column-3 .social-media a img {
   width: 20px;
