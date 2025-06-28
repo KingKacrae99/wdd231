@@ -48,14 +48,14 @@
     <main>
        <div class="container">
         <h1 class="verification-title">Verify A Drug</h1>
-        <form method="get" action="verification.html">
+        <form id="verify-form">
             <label for="drugname"> Drug Name</label><br>
-            <input type="text" id="drugname" name="drugname" title="The name of the drug" required><br>
-            <label for="batch-no"> Batch Number</label><br>
-            <input type="text" id="batch-no" name="batch" title="The batch number of the drug name" required>
+            <input type="text" id="drugname" name="drugname" title="The name of the drug"><br>
+            <label for="ndc"> Product NDC</label><br>
+            <input type="text" id="ndc" name="ndc" title="National Drug code(NDC)">
             <br>
-            <label for="nafdac"> Nafdac Number</label><br>
-            <input type="text" id="nafdac" name="nafdac" title="The nafdac registration number" required>
+            <label for="app-no"> Application No</label><br>
+            <input type="text" id="app-no" name="app-no" title="FDA approval number for drug">
             <br>
             <label for="manufacturer">Manufacturer</label><br>
             <input type="text" id="manufacturer" name="manufacturer" title="Company that made the drug"><br>

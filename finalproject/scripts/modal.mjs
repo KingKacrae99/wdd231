@@ -1,64 +1,62 @@
 import { getDrugList } from "./drug.mjs";
-export default function showDrugInfo(drug){
+export default function showDrugInfo(data){
     const verifyDetails = document.querySelector('#verify-details');
     const loader = document.querySelector(".loader");
     const content = document.querySelector(".drug-content");
-    verifyDetails.showModal()
     loader.classList.remove("loader-hidden")
     content.style.display ='none';
 
     setTimeout(()=>{
-        if(drug){
+        if(data){
             loader.classList.remove("loader")
             loader.classList.add("loader-hidden");
             content.style.display = "block";
 
-            function Verified(drug){
-                if(drug.verified){
-                    return "Verified ✅";
-                } else{
-                    return "Drug's not Authentic";
-                }
-            }
-            content.innerHTML = `
-                <h3>${drug.name}</h3>
-                <p><strong>Batch Number </strong> ${drug.batch}</p>
-                <p><strong>Manufacturer</strong> ${drug.manufacturer}</p>
-                <p><strong>Expiry</strong> ${drug.expiry}</p>
-                <p><strong>NafDac No</strong> ${drug.nafdac_no}</p>
-                <p><strong>Verified</strong> ${Verified(drug)}</p>
+            if(data !== "No matches found!"){
+                content.innerHTML = `
+                <h3>${data.openfda.brand_name}</h3>
+                <p><strong>Generic Name:</strong> ${data.openfda.generic_name}</p>
+                <p>${data.purpose}</p>
+                <p><strong>Product NDC: </strong> ${data.openfda.product_ndc}</p>
+                <p><strong>Application No:</strong> ${data.openfda.application_number}</p>
+                <p><strong>Manufacturer:</strong> ${data.openfda.manufacturer_name}</p>
+                <p><strong>Consumption:</strong> ${data.openfda.product_type}</p>
+                <p><strong>Route Use:</strong> ${data.openfda.route}</p>
+                <p><strong>Verified:</strong> Verified ✅</p>
+                <strong>Administration:</strong><small> ${data.dosage_and_administration}</small><br>
+                <strong>Don't Use:</strong><small> ${data.do_not_use}</small>
+
+
                 <div class="save-option">
                 Would you like add this drug to your drug list? 
                 <button id="saveitem">yes</button> <button id="dontsave">No</button>
                 </div>
                 `
-        } else{
+                saveitem.addEventListener('click', () => {
+                if (localStorage.getItem(data.product_ndc)) {
+                    content.innerHTML =`
+                    <h3>This drug is already saved in your drug list</h3>`;
+                    
+                } else {
+                    localStorage.setItem(data.product_ndc, `Drug ${data.brand_name}`)
+                    content.innerHTML = `
+                        <h3>Drug has been added to list</h3>`
+                }
+                });
+                dontsave.addEventListener('click', () =>{
+                    verifyDetails.close()
+                });
+            
+            }else{
             content.innerHTML =`
                 <button id="closeModal">X</button>
-                <h3>Drug not found!</h3>`;
+                <h3>${data}</h3>`;
+            } 
         }
         
-    saveitem.addEventListener('click', () => {
-    if (localStorage.getItem(drug.name)) {
-        content.innerHTML =`
-        <h3>This drug is already saved in your drug list</h3>`;
-        
-    } else {
-        localStorage.setItem(drug.name, JSON.stringify(drug))
-        console.log(JSON.stringify(drug))
-        content.innerHTML = `
-            <h3>Drug has been added to list</h3>`
-    }
-    });
-    dontsave.addEventListener('click', () =>{
-        verifyDetails.close()
-    });
-    
     },750)
 
     closeModal.addEventListener('click', () =>{
         verifyDetails.close()
     });
-
-    
 }

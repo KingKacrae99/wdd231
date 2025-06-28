@@ -10,7 +10,7 @@ export function getDrugList(){
                  const value = JSON.parse(localStorage.getItem(key));
                 if (value) {
                     const li = document.createElement("li");
-                    li.textContent += `${value.name} - ${value.verified? "Verified ✅" : "Not verified"}`;
+                    li.textContent += `${value.brand_name} - ${value.is_original_packager? "Verified ✅" : "Not verified"}`;
                     drugList.appendChild(li);
                 }
             }
